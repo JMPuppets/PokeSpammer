@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '+ping') {
-    	message.channel.send('pong');
+    if (message.content === '|spam') {
+    	message.channel.send('spam');
   	}
 });
 
