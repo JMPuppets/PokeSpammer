@@ -7,13 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '|spam') {
-    	message.channel.send('|spam');
+    	message.channel.send('|ooh i like spam');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '+') {
-    	message.channel.send('');
+    if (message.content === '|ooh i like spam') {
+    	message.channel.send('|spam');
   	}
 });
 
