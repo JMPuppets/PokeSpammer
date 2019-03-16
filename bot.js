@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '|spam') {
-    	message.channel.send('spam');
+    	message.channel.send('|spam');
   	}
 });
 
