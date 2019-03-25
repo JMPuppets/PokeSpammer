@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '|spam') {
-    	message.channel.send('|ooh i like spam');
+    if (message.content === '|random 1-28') {
+    	double random = Math.random() * 49 + 1;
   	}
 });
 
